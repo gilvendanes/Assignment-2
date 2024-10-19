@@ -1,0 +1,104 @@
+/*
+ * Assignment 02
+ * CSS FILE
+ */
+
+ body {
+  font-family: Arial,Helvetica,sans-serif;
+  background-color:#fb8500;
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #023047;
+  color: white;
+  padding: 1rem;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.content,.schedule,.cta {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color:#023047;
+}
+table {
+  width:100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #023047;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+footer {
+  background-color:#023047;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+} 
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta {
+  text-align: center;
+}
+.cta-button {
+  background-color: #fb8500;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
